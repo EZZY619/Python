@@ -6,12 +6,12 @@ USERNAME = 'EZZY'
 PASSWORD = 'botcoder'
 
 # Made it a function so that we can call it anytime we need and fill the form.
-# The .strip() function will remove any space placed while inputting the credentials to avoid errors
+# The .strip() function will remove any spaces placed while inputting the credentials to avoid errors
 def authenticate():
     username_input = input('🔐 Enter your username: ').strip()
     password_input = input('🔑 Enter your password: ').strip()
 
-    # Used the if statement to confirm the credentials the user puts
+    # Used the if statement to confirm the credentials that the user puts in
     if username_input == USERNAME:
         if password_input == PASSWORD:
             print('\n✅ Access granted.')
