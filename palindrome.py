@@ -1,4 +1,4 @@
-def is_palindrome(text: str) -> bool:
+def is_palindrome(text: str) -> bool: # This function checks if the given string is a palindrome and returns a boolean value.
     """
     What the function(is_palindrome) does:
     Checks if a given string is a palindrome.
@@ -16,7 +16,7 @@ Returns:
     return cleaned == cleaned[::-1]  #checks if the parameter's value is a palindrome or not, then returns a boolean
 """
 The block of code below is excellent for code reuseability because it controls the interaction between those who import the code and those who run it locally, 
-and it is helpful because it improves code flexibility once it is imported into another program or used in a different context. 
+It is helpful because it improves code flexibility once imported into another program or used in a different context. 
 In other words, it is mainly used for code reusability but can also be used to debug or test the functionality of your code.
 """
 if __name__ == "__main__":
