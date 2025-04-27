@@ -12,7 +12,7 @@ This repo is organized to grow with time. Here’s what you can expect:
 -   Modules and packages
 -   File I/O operations
 -   Mini projects and problem-solving exercises
--   Experiments with logic and structureS
+-   Experiments with logic and structures
 
 ## 🚀 Getting Started
 
